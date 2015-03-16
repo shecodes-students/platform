@@ -1,0 +1,5 @@
+all:
+	jade ./ 	
+	stylus ./
+	 
+

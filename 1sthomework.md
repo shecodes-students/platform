@@ -1,0 +1,31 @@
+## Homework No. 1
+
+You’ll probably need 1,5 hours for this. Remember, you can speed up video playback.
+
+*Boolean Algebra: much more complete than what we talked about
+https://www.youtube.com/watch?v=AnQsznjccUw&list=LLsoqfkGvfd2Wy4FQFelTo5g&index=7
+
+*I have not explained what a transistor is and how it functions. It is a stunning mixture of chemistry, physics and advanced engineering:
+https://www.youtube.com/watch?v=IcrBqCFLHIY
+
+*This is how they look like an how you can use them when they come as a macroscopic component:
+https://www.youtube.com/watch?v=Te5YYVZiOKs&list=LLsoqfkGvfd2Wy4FQFelTo5g&index=15
+
+Question 1: The video shows a light going on when the sun is shining. This is stupid. What do you have to do, to make it turn on when it is dark?
+
+*And here is how you put millions of these into an Integrated Circuit (IC) aka “Chip” (and you will understand after watching this, why it is called a chip!) This is a comprehensive explanation directly from the inventors of the IC at Fairchild semiconductors. (it’s long, just watch the first 16 minutes)  Notice the Dual Inline Packaging (DIP), you will see it again.
+https://www.youtube.com/watch?v=z47Gv2cdFtA
+
+*I also did not explain, how the ADDer is build from gates. We just proved, that it can be done. So, here’s how it is done:
+https://www.youtube.com/watch?v=VBDoT8o4q00&list=LLsoqfkGvfd2Wy4FQFelTo5g&index=35
+
+*Here’s a bunch of gates in a DIP packaged IC and how you can use it to actually build stuff (and the floating pin problem):
+https://www.youtube.com/watch?v=cdMJvFT-Afc&list=LLsoqfkGvfd2Wy4FQFelTo5g&index=6
+
+*Here’s how an IC looks under the microscope
+https://www.youtube.com/watch?v=GdqbLmdKgw4&list=LLsoqfkGvfd2Wy4FQFelTo5g&index=32
+
+*And finally, here’s a good-night story from our dear friend Mr. Feynman:
+https://www.youtube.com/watch?v=kS25vitrZ6g&list=LLsoqfkGvfd2Wy4FQFelTo5g&index=11
+
+
