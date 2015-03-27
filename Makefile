@@ -1,5 +1,7 @@
+BIN:=$(shell npm bin)
+
 all:
-	jade ./ 	
-	stylus ./
+	$(BIN)/jade ./
+	$(BIN)/stylus ./
 	 
 
