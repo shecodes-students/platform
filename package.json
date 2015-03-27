@@ -22,5 +22,9 @@
   "homepage": "https://github.com/shecodes-students/platform",
   "dependencies": {
     "bootstrap": "^3.3.4"
+  },
+  "devDependencies": {
+    "stylus": "^0.50.0",
+    "jade": "^1.9.2"
   }
 }
