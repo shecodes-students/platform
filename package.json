@@ -1,0 +1,26 @@
+{
+  "name": "platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shecodes-students/platform.git"
+  },
+  "contributors": [
+    "Julia Friesel",
+    "Leonor Martins",
+    "Jan Bölsche"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shecodes-students/platform/issues"
+  },
+  "homepage": "https://github.com/shecodes-students/platform",
+  "dependencies": {
+    "bootstrap": "^3.3.4"
+  }
+}
