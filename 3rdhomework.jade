@@ -1,0 +1,64 @@
+doctype html
+html(lang=en)
+head
+	title Third Homework
+	meta(charset="uft-8")
+	link(rel='stylesheet', href='../../node_modules/bootstrap/dist/css/bootstrap.min.css')
+	link(rel='stylesheet', href='./custom.css')
+body
+	:markdown
+		## Homework No. 3
+In the last lecture we saw how we can represent numbers in decimal, binary, octal and hexadecimal positional notation.
+
+		Today, we will focus more on a binary system, where only two values exist: 0 or 1, true or false, on or off, high or low (you can use all these terms interchangeably). We call such a single-digit binary number a __bit__.
+
+		### Logic
+A single bit, for example, can represent the truth of a statement, this is what logic is all about. Learn about the fundamentals of logic from this video:
+		* Introduction to logic and truth tables
+		| <iframe width = "560" height= "315" src= "https://www.youtube.com/watch?v=OLGVhszBlq4" frameborder="0" allowfullscreen></iframe>
+	:markdown
+		__Question 1.__ What is the negation of the statement:
+
+		>"If I have enough time, I will become an awesome programmer"
+
+
+		In logic the two possible states are called 'true' and 'false' and the operator that combines two statements into a compound statement is called 'connective'. There is one unary connective (the negation), and two binary connectives (and, or). It is important to stress that the word 'binary' refers to the number of statements that are combined. A binary connective combines TWO statements, hence it is called BINARY. The negation connective, in contrast, is just dealing with ONE statement, hence it is called UNARY. (so, the 'binary' in 'binary connective' and the binary in 'binary digit' mean different things!)
+
+		[Wikipedia](http://en.wikipedia.org/wiki/Logical_connective)
+
+		### Boolean Algebra and Logic Gates
+
+		We've seen that in Logic, the symbols for the AND connective and the OR connective look like a U and an upside down U respectively and the negation uses the symbol ~.
+
+		There's a field in mathematics that is closely related to logic: boolean algebra. Like with regular algebra, it deals with rules to simplify or re-arrange terms. Stuff like a(a+c) is the same as a*a + a*c. But boolean algebra deals with truth values (true or false, 1 or 0) instead of numbers (like regular algebra does)
+		
+		In contrast to logic, boolean algebra uses the name 'logic operator' for what is called 'a connective' in logic, it uses 1 and 0 instead of T and F, and * and + as symbols for the AND and OR operators. But they really both talk about exactly the same things, using different words.
+
+		* Introduction to Boolean Algebra
+	 | <iframe width = "560" height= "315" src="https://www.youtube.com/watch?v=AnQsznjccUw"frameborder="0" allowfullscreen></iframe>
+	:markdown
+		Notice: the left-most columns of the truth tables in the video (the A and B columns) are filled with all possible combinations of A and B. To get all combinations, you count from 0 to four in binary, like in the video with the sheep, but using a 2-bit number.
+		In the video you saw yet another notation for boolean operators: logic gates. These gates can actually be constructed physically, they are the basic building block of machines that perform logic (aka computers)
+
+		There are two more interesting gates, NAND and NOR
+
+		A NAND B = NOT (A AND B)
+
+		A NOR B = NOT(A OR B)
+
+		The corresponding gates look like the symbols for AND and OR, but with a small circle at the output, indicating the negation.
+
+		__Question 2:__ Write the truth tables for the NAND and NOR gates.
+		form
+		textarea
+		inpout(type="submit", value="check answer")
+	:markdown
+		Why do we care about NAND and NOR? Because: 
+
+		* these ages a very easy to build physically and
+		* you can build all the other gates with just using NAND gates (or just NOR gates)
+
+		Here's how:
+	| <iframe width = "560" height= "315" src="https://www.youtube.com/watch?v=SOMdzLslYIg"frameborder="0" allowfullscreen></iframe>
+	:markdown
+		Isn't that cool?
